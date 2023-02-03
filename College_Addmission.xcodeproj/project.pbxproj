@@ -13,6 +13,8 @@
 		EFCB4D9129580C05007D1612 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFCB4D8F29580C05007D1612 /* Main.storyboard */; };
 		EFCB4D9329580C06007D1612 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFCB4D9229580C06007D1612 /* Assets.xcassets */; };
 		EFCB4D9629580C06007D1612 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFCB4D9429580C06007D1612 /* LaunchScreen.storyboard */; };
+		EFCB4D9E295814CF007D1612 /* CheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCB4D9D295814CF007D1612 /* CheckViewController.swift */; };
+		EFCB4DA029581956007D1612 /* College_Student_Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCB4D9F29581956007D1612 /* College_Student_Struct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		EFCB4D9229580C06007D1612 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFCB4D9529580C06007D1612 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFCB4D9729580C06007D1612 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFCB4D9D295814CF007D1612 /* CheckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckViewController.swift; sourceTree = "<group>"; };
+		EFCB4D9F29581956007D1612 /* College_Student_Struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = College_Student_Struct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +61,10 @@
 			isa = PBXGroup;
 			children = (
 				EFCB4D8929580C05007D1612 /* AppDelegate.swift */,
+				EFCB4D9F29581956007D1612 /* College_Student_Struct.swift */,
 				EFCB4D8B29580C05007D1612 /* SceneDelegate.swift */,
 				EFCB4D8D29580C05007D1612 /* ViewController.swift */,
+				EFCB4D9D295814CF007D1612 /* CheckViewController.swift */,
 				EFCB4D8F29580C05007D1612 /* Main.storyboard */,
 				EFCB4D9229580C06007D1612 /* Assets.xcassets */,
 				EFCB4D9429580C06007D1612 /* LaunchScreen.storyboard */,
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFCB4D8E29580C05007D1612 /* ViewController.swift in Sources */,
+				EFCB4D9E295814CF007D1612 /* CheckViewController.swift in Sources */,
 				EFCB4D8A29580C05007D1612 /* AppDelegate.swift in Sources */,
+				EFCB4DA029581956007D1612 /* College_Student_Struct.swift in Sources */,
 				EFCB4D8C29580C05007D1612 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
